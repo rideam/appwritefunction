@@ -2,7 +2,7 @@ import { ID } from 'node-appwrite';
 import { Client, Databases, Query } from 'node-appwrite';
 
 const PROJECT_ID = process.env.PROJECT_ID,
-    DATABASE_ID = process.env.DATABASE_ID,TASKS_COLLECTION_ID = process.env.TASKS_COLLECTION_ID;
+    DATABASE_ID = process.env.DATABASE_ID,TASKS_COLLECTION_ID = process.env.TASKS_COLLECTION_ID,
     DEPENDENCIES_COLLECTION_ID = process.env.DEPENDENCIES_COLLECTION_ID;
 
   export default async ({ req, res }) => {
