@@ -13,7 +13,7 @@ const PROJECT_ID = process.env.PROJECT_ID,
 
     const databases = new Databases(client);
 
-};
+
 
 function createOperation(added, table) {
   return Promise.all(
@@ -206,3 +206,5 @@ if (req.method === "POST") {
       });
   }
 }
+
+};
